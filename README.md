@@ -1,5 +1,7 @@
 # logo
 
+![logo.png](logo.png)
+
 OS: MacOS with Homebrew installed
 
 ```
@@ -18,9 +20,12 @@ brew install imagemagick librsvg
     ```
     convert -crop +8+0 -crop -8-16 1f9f8-816px.png 1f9f8-800px.png
     ```
-5. Resize it to 200px and crop (resulting in 136x200):
+5. Resize it to 200px and trim (resulting in 136x200):
     ```
-    convert -geometry x200 -trim 1f9f8-800px.png 1f9f8-200px-cropped.png
+    convert -geometry x200 1f9f8-800px.png 1f9f8-200px.png
+    ```
+    ```
+    convert -trim 1f9f8-200px.png 1f9f8-200px-trimmed.png
     ```
 6. Convert [`WikindeR.svg`](#wikindersvg) to a PNG of 200px height (resulting in 965x200):
     ```
@@ -28,7 +33,7 @@ brew install imagemagick librsvg
     ```
 7. Merge the two images side by side with a 19px space in between (resulting in 1120x200):
     ```
-    convert -background transparent -splice 19x0+0+0 +append -chop 19x0+0+0 1f9f8-200px-cropped.png WikindeR-200px.png logo.png
+    convert 1f9f8-200px-trimmed.png WikindeR-200px.png -background transparent -splice 19x0+0+0 +append -chop 19x0+0+0 logo.png
     ```
 
 ## [`WikindeR.svg`](WikindeR.svg)
