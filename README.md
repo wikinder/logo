@@ -31,9 +31,9 @@ brew install imagemagick librsvg
     ```
     rsvg-convert -h 200 -o WikindeR-200px.png WikindeR.svg
     ```
-7. Merge the two images side by side with a 19px space in between (resulting in 1120x200):
+7. Merge the two images side by side with a 39px space in between (resulting in 1140x200):
     ```
-    convert 1f9f8-200px-trimmed.png WikindeR-200px.png -background transparent -splice 19x0+0+0 +append -chop 19x0+0+0 logo.png
+    convert 1f9f8-200px-trimmed.png WikindeR-200px.png -background transparent -splice 39x0+0+0 +append -chop 39x0+0+0 logo.png
     ```
 
 ## [`WikindeR.svg`](WikindeR.svg)
