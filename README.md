@@ -40,7 +40,7 @@ brew install imagemagick librsvg
 
 This was created as follows:
 
-1. Download [`toys_r_us.ttf`](https://www.cdnfonts.com/toys-r-us-2.font) (by unknown) from CDNFonts:
+1. Download [`toys_r_us.ttf`][toys_r_us.ttf] from CDNFonts:
     ```
     curl -O https://fonts.cdnfonts.com/s/95273/toys_r_us.ttf
     ```
@@ -55,6 +55,13 @@ This was created as follows:
 
 ## License
 
-[`1f9f8.svg`][1f9f8.svg] (c) 2019 Twitter, Inc and other contributors. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+[`1f9f8.svg`][1f9f8.svg] (c) 2019 Twitter, Inc and other contributors. [CC BY 4.0][CC-BY-4.0]
+
+[`toys_r_us.ttf`][toys_r_us.ttf] (c) Unknown
+
+Any modifications we have made are licensed under [CC0][CC0-1.0].
 
 [1f9f8.svg]: https://github.com/twitter/twemoji/blob/v14.0.2/assets/svg/1f9f8.svg
+[toys_r_us.ttf]: https://www.cdnfonts.com/toys-r-us-2.font
+[CC0-1.0]: https://creativecommons.org/publicdomain/zero/1.0/
+[CC-BY-4.0]: https://creativecommons.org/licenses/by/4.0/
