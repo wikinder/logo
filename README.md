@@ -59,7 +59,7 @@ This was created as follows:
 
 [`toys_r_us.ttf`][toys_r_us.ttf] (c) Unknown
 
-Any modifications we have made are licensed under [CC0][CC0-1.0].
+Any modifications we made are licensed under [CC0][CC0-1.0].
 
 [1f9f8.svg]: https://github.com/twitter/twemoji/blob/v14.0.2/assets/svg/1f9f8.svg
 [toys_r_us.ttf]: https://www.cdnfonts.com/toys-r-us-2.font
