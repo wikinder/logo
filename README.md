@@ -16,7 +16,7 @@ brew install imagemagick librsvg
     ```
     rsvg-convert -h 816 -o 1f9f8-816px.png 1f9f8.svg
     ```
-4. Crop to create an 800x800 PNG (which is live as [`icon.png`](https://wikinder.org/w/resources/assets/icon.png) for use in `og:image`):
+4. Crop to create an 800x800 PNG (which is live as [`icon.png`](https://wikinder.org/w/resources/assets/icon.png) for `og:image`; [favicon](https://wikinder.org/favicon.ico) was created based on this):
     ```
     convert -crop +8+0 -crop -8-16 1f9f8-816px.png 1f9f8-800px.png
     ```
