@@ -8,7 +8,7 @@ OS: MacOS with Homebrew installed
 brew install imagemagick librsvg
 ```
 
-1. Download [`1f9f8.svg`](https://github.com/twitter/twemoji/blob/v14.0.2/assets/svg/1f9f8.svg) from Twemoji:
+1. Download [`1f9f8.svg`][1f9f8.svg] from Twemoji:
     ```
     curl -O https://raw.githubusercontent.com/twitter/twemoji/v14.0.2/assets/svg/1f9f8.svg
     ```
@@ -52,3 +52,9 @@ This was created as follows:
     * Non-Scaling Stroke: No
     * (leave all other settings as default)
 4. Manually edit the SVG in a text editor.  In particular, change the color of each letter with reference to [Encycolorpedia](https://encycolorpedia.com/companies/us/toys-r-us).
+
+## License
+
+[`1f9f8.svg`][1f9f8.svg] (c) 2019 Twitter, Inc and other contributors. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+[1f9f8.svg]: https://github.com/twitter/twemoji/blob/v14.0.2/assets/svg/1f9f8.svg
